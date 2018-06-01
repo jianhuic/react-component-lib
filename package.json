@@ -4,10 +4,11 @@
   "description": "An example React component library",
   "main": "build/index.js",
   "scripts": {
-     "build": "babel lib -d build",
-     "lint": "eslint lib/**; exit 0",
-     "lint:watch": "esw -w lib/**",
-     "prepublish": "npm run build"	
+    "build": "babel lib -d build",
+    "build:watch": "babel lib -w -d build",
+    "lint": "eslint lib/**; exit 0",
+    "lint:watch": "esw -w lib/**",
+    "prepublish": "npm run build"
   },
   "author": "Chan Jian Hui <jianhui..chan@honestbee.com>",
   "license": "ISC",
